@@ -1,0 +1,56 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  min-height: 80px;
+  backdrop-filter: blur(6px);
+  box-sizing: border-box;
+  width: 100%;
+  z-index: 1000;
+  position: relative;
+}
+
+.search-bar{
+  position: absolute;
+  top: 27%;
+  left: 79%;
+  z-index: 10000;
+  gap: 0.5rem;
+  width: 20px;
+  display: flex;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  margin-left: -0.5cm;
+}
+
+.logo {
+  height: 62px;
+  width: auto;
+  object-fit: contain;
+}
+
+:host ::ng-deep .p-autocomplete-panel {
+  z-index: 10001 !important;
+  position: absolute !important;
+}
+
+:host ::ng-deep .p-autocomplete .p-inputtext {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  color: white !important;
+  backdrop-filter: blur(6px);
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+
+
+:host ::ng-deep .p-autocomplete .p-inputtext:hover,
+:host ::ng-deep .p-autocomplete .p-inputtext:focus {
+  border-color: rgba(19, 99, 156, 0.84)   !important;
+  box-shadow: none !important;
+}

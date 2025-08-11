@@ -1,0 +1,55 @@
+/* -----------------Diseño y estilos de todo el side bar----------------- */
+
+.logs-container1 {
+  background-color: rgba(255, 255, 255, 0.201);
+  padding: 4px 8px;
+  border-radius: 6px;
+  text-align: center;
+  min-width: 120px;
+}
+
+.log-summary span {
+  font-size: 11px;
+}
+
+.total {
+  color: #005eff !important;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+}
+
+.logs-container2 {
+  background-color: rgba(255, 255, 255, 0.201);
+  padding: 4px 8px;
+  border-radius: 6px;
+  text-align: center;
+  min-width: 120px;
+  margin-top: 55px;
+}
+
+.success {
+  color: #00ff00 !important;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+}
+
+.logs-container3 {
+  background-color: rgba(255, 255, 255, 0.201);
+  padding: 4px 8px;
+  border-radius: 6px;
+  text-align: center;
+  min-width: 120px;
+  margin-top: 55px;
+}
+
+.error {
+  color: #ff0000 !important;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+}

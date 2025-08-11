@@ -1,0 +1,80 @@
+/* -------------Logica de lo que hay adentro del modal calendar------------- */
+/* Diálogo del calendario */
+#titulo-modal {
+  text-align: justify;
+  align-items: center;
+}
+
+/* Estilo del calendario */
+.Calendar {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10%;
+}
+
+/* Historial */
+.cuadro-historial {
+  text-align: justify;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(177, 172, 172);
+}
+
+.number {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(21, 21, 197);
+  border-radius: 50%;
+  text-align: center;
+}
+
+.prediccion-fechas {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+
+.number-metric {
+  margin-right: 40%;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 35px;
+  background-color: rgb(194, 160, 25);
+  border-radius: 50%;
+  text-align: center;
+}
+
+/* Predicción */
+#prediction-for {
+  margin-top: 10%;
+  text-align: justify;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Métricas futuras */
+.cuadro-metricas {
+  margin-top: 10%;
+  text-align: justify;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(177, 172, 172);
+}
+
+/* Estilo de las lineas horizontales para separación */
+hr {
+  height: 1px;
+  border: 10;
+  width: 40%;
+  background-color: rgb(255, 255, 255);
+}
